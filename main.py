@@ -12,7 +12,7 @@ def main():
     if not os.path.exists(args.output):
         os.mkdir("downloads")
 
-    download_video(args.url, args.output)
+    download_video(args.url, args.output, args.dry_run)
                     
 if __name__ == '__main__':
     main()
