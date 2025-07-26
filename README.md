@@ -22,7 +22,7 @@ git clone https://github.com/SeamusWong29/cli-youtube-downloader.git
 cd cli-youtube-downloader
 pip install -r requirements.txt
 ```
-2. **Usage**:
+2. **Download Video**:
 ```bash
 python main.py --url"<YouTube Video URL>" --output"<Directory>"
 
