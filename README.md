@@ -24,19 +24,21 @@ pip install -r requirements.txt
 ```
 2. **Download Video**:
 ```bash
+# Usage
 python main.py --url"<YouTube Video URL>" --output"<Directory>"
 ```
 
-
-
-
 ```bash
-###Download to default folder
+# Download to default folder
 python main.py --url "https://youtu.be/dQw4w9WgXcQ"
 ```
+
+```bash
 # Download to custom folder
 python main.py --url "https://youtu.be/dQw4w9WgXcQ" --output "~/videos"
+```
 
+```bash
 # Dry run (test first)
 python main.py --url "https://youtu.be/dQw4w9WgXcQ" --dry-run
 ```
