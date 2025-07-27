@@ -4,9 +4,21 @@ A simple Python-based command-line tool to download Youtube videos in the highes
 
 ---
 
-## Demo 
+## Example CLI Command
+```bash
+# Download to default folder
+python main.py --url "https://youtu.be/dQw4w9WgXcQ"
+```
 
-_Add a screenshot or GIF here of the terminal usage or the result._
+```bash
+# Download to custom folder
+python main.py --url "https://youtu.be/dQw4w9WgXcQ" --output "~/videos"
+```
+
+```bash
+# Dry run (test first)
+python main.py --url "https://youtu.be/dQw4w9WgXcQ" --dry-run
+```
 
 ## Feature
 - Download videos from Youtube by url
@@ -26,20 +38,4 @@ pip install -r requirements.txt
 ```bash
 # Usage
 python main.py --url"<YouTube Video URL>" --output"<Directory>"
-```
-
-**Exmaples**
-```bash
-# Download to default folder
-python main.py --url "https://youtu.be/dQw4w9WgXcQ"
-```
-
-```bash
-# Download to custom folder
-python main.py --url "https://youtu.be/dQw4w9WgXcQ" --output "~/videos"
-```
-
-```bash
-# Dry run (test first)
-python main.py --url "https://youtu.be/dQw4w9WgXcQ" --dry-run
 ```
